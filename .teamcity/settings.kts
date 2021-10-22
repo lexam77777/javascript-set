@@ -51,7 +51,7 @@ object id02Chrome : BuildType({
     name = "02. Chrome"
 
     params {
-        param("Browser", "Chrome")
+        param("Browser", "Chrome2")
     }
 
     steps {
