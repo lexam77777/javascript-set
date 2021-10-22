@@ -77,6 +77,14 @@ object id02Firefox : BuildType({
         param("Browser", "Firefox")
     }
 
+    steps {
+        script {
+            name = "Browser Test"
+            id = "RUNNER_8"
+            scriptContent = "npm test -- --single-run --browsers %Browser% --colors false --reporters teamcity"
+        }
+    }
+
     dependencies {
         snapshot(id01FastTests) {
         }
