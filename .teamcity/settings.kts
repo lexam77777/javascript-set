@@ -29,6 +29,7 @@ version = "2021.1"
 
 project {
 
+    vcsRoot(HttpsGithubComG0t4teamcityCourseCards1)
     vcsRoot(HttpsGithubComG0t4teamcityCourseCards)
 
     buildType(id02Chrome)
@@ -116,7 +117,7 @@ object Template_1 : Template({
     }
 
     vcs {
-        root(HttpsGithubComG0t4teamcityCourseCards)
+        root(HttpsGithubComG0t4teamcityCourseCards1)
     }
 
     steps {
@@ -142,6 +143,12 @@ object Template_1 : Template({
 
 object HttpsGithubComG0t4teamcityCourseCards : GitVcsRoot({
     name = "https://github.com/g0t4/teamcity-course-cards"
+    url = "https://github.com/g0t4/teamcity-course-cards"
+    branch = "refs/heads/master"
+})
+
+object HttpsGithubComG0t4teamcityCourseCards1 : GitVcsRoot({
+    name = "https://github.com/g0t4/teamcity-course-cards (1)"
     url = "https://github.com/g0t4/teamcity-course-cards"
     branch = "refs/heads/master"
 })
