@@ -28,8 +28,7 @@ To debug in IntelliJ Idea, open the 'Maven Projects' tool window (View
 version = "2021.1"
 
 project {
-    
-    vcsRoot(HttpsGithubComG0t4teamcityCourseCards1)
+
     vcsRoot(HttpsGithubComG0t4teamcityCourseCards)
 
     buildType(id02Chrome)
